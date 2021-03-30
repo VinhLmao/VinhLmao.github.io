@@ -35,21 +35,13 @@
         <div class="tm-page">
 
                         
-<div class="tm-header-mobile uk-hidden@m">
+<div class="tm-header-mobile uk-hidden@s">
 
+<div uk-sticky show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
 
     <div class="uk-navbar-container">
         <nav uk-navbar>
 
-                        <div class="uk-navbar-left">
-
-                
-                                <a class="uk-navbar-toggle" href="#tm-mobile" uk-toggle>
-                    <div uk-navbar-toggle-icon></div>
-                                    </a>
-                
-                
-            </div>
             
                         <div class="uk-navbar-center">
                 
@@ -57,25 +49,36 @@
     <img alt="VINH-AN BUIS" src="/wp-content/themes/yootheme/cache/vinhan_circle-221251c7.png" srcset="/wp-content/themes/yootheme/cache/vinhan_circle-221251c7.png 120w, /wp-admin/admin-ajax.php?p=theme%2Fimage&amp;action=kernel&amp;src=WyJ3cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wM1wvdmluaGFuX2NpcmNsZS5wbmciLFtbImRvUmVzaXplIixbMjQwLDI0MCwyNDAsMjQwXV0sWyJkb0Nyb3AiLFsyNDAsMjQwLDAsMF1dXV0%3D&amp;hash=a2d9d535ac821115b86d262cc0167093 240w" sizes="(min-width: 120px) 120px" data-width="120" data-height="120"></a>
                             </div>
             
+                        <div class="uk-navbar-right">
+
+                
+                                <a class="uk-navbar-toggle" href="#tm-mobile" uk-toggle>
+                                        <div uk-navbar-toggle-icon></div>
+                </a>
+                
+                
+            </div>
             
         </nav>
     </div>
 
     
+</div>
 
-<div id="tm-mobile" uk-offcanvas mode="slide" overlay>
-    <div class="uk-offcanvas-bar">
+<div id="tm-mobile" uk-offcanvas mode="slide" flip overlay>
+    <div class="uk-offcanvas-bar uk-text-center uk-flex">
 
         <button class="uk-offcanvas-close" type="button" uk-close></button>
 
-        
+                <div class="uk-margin-auto-vertical uk-width-1-1">
+            
             
 <div class="uk-child-width-1-1" uk-grid>    <div>
 <div class="uk-panel">
 
     
     
-<ul class="uk-nav uk-nav-default">
+<ul class="uk-nav uk-nav-primary uk-nav-center">
     
 	<li><a href="/" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-home">Home</a></li>
 	<li><a href="/projects/" class=" menu-item menu-item-type-post_type menu-item-object-page">Projects</a></li>
@@ -86,18 +89,19 @@
 </div>
 </div>
 </div>
-            
+                    </div>
+        
     </div>
 </div>
 
 </div>
 
 
-<div class="tm-header uk-visible@m" uk-header>
+<div class="tm-header uk-visible@s" uk-header>
 
 
 
-        <div uk-sticky media="@m" show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+        <div uk-sticky media="@s" show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
     
         <div class="uk-navbar-container uk-navbar-primary">
 
