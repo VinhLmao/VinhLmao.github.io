@@ -8,24 +8,24 @@
 	>
 
 <channel>
-	<title>Vinh-An Buis</title>
+	<title>Portfolio</title>
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
-	<description>Portfolio</description>
-	<lastBuildDate>Sun, 28 Mar 2021 01:55:40 +0000</lastBuildDate>
+	<description>Vinh-An Buis Personal website</description>
+	<lastBuildDate>Sun, 26 Sep 2021 20:10:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/2021/03/28/hello-world/</link>
-					<comments>/2021/03/28/hello-world/#comments</comments>
+		<link>/2021/09/26/hello-world/</link>
+					<comments>/2021/09/26/hello-world/#comments</comments>
 		
-		<dc:creator><![CDATA[Vinh]]></dc:creator>
-		<pubDate>Sun, 28 Mar 2021 01:55:40 +0000</pubDate>
+		<dc:creator><![CDATA[VinhAnBuis]]></dc:creator>
+		<pubDate>Sun, 26 Sep 2021 20:10:34 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
@@ -34,7 +34,7 @@
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2021/03/28/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/09/26/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
